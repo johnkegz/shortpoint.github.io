@@ -1,0 +1,108 @@
+.container{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.progress-bar-container{
+    width: 100%;
+    height: 43px;
+    background-color: rgb(235,235,235);
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(0,0,0, .4);
+    border-top: 1px solid rgba(255,255,225, .9);
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bar1{
+    background: repeating-linear-gradient(
+    -55deg,
+    rgb(153,182,115),
+    rgb(153,182,115) 5px,
+    rgb(198,231,142) 5px,
+    rgb(198,231,142) 10px
+    );
+   
+}
+
+.bar2{
+    background: repeating-linear-gradient(
+    -55deg,
+    rgb(240,125,107),
+    rgb(240,125,107) 5px,
+    rgb(241,148,133) 5px,
+    rgb(241,148,133) 10px
+    ); 
+}
+
+.bar3{
+    background: #fff;
+}
+
+.bar4{
+    background: repeating-linear-gradient(
+    -55deg,
+    rgb(144,205,241),
+    rgb(144,205,241) 5px,
+    rgb(145,201,239) 5px,
+    rgb(145,201,239) 10px
+    );
+    
+}
+
+
+.bar5{
+    background: repeating-linear-gradient(
+    -55deg,
+    rgb(249,196,80),
+    rgb(249,196,80) 5px,
+    rgb(253,217,124) 5px,
+    rgb(253,217,124) 10px
+    );
+}
+
+.progress-bar-percentage{
+    /* width: 20px; */
+    /* height: 100%; */
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(104,104,104)
+    ;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.button {
+    background-color: rgb(48, 48, 253);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
